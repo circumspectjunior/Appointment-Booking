@@ -1,0 +1,82 @@
+.formContainer {
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.formContainer form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  overflow-y: scroll;
+  -ms-overflow-style: none; /* IE and Edge */
+  height: 580px;
+  margin-bottom: 5px;
+  width: 400px;
+  padding: 10px;
+}
+
+.formContainer .submittedDiv {
+  background-color: #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 25px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.formContainer .submittedD {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 10%;
+}
+
+.formContainer .shineB {
+  height: 700px;
+}
+
+.formContainer::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
+.formContainer h1 {
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 30px;
+}
+
+form input {
+  margin-bottom: 25px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color: #a9a4a4;
+  height: 50px;
+}
+.formContainer button {
+  padding: 10px;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #0056b3;
+}
+
+.aPayButton {
+  background-color: #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  color: black;
+}
+
+.appointmentSection {
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}

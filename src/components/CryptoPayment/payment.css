@@ -1,0 +1,25 @@
+.payment-request {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  color: rgb(216, 206, 206);
+}
+
+.payment-request h2 {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.payment-request h3 {
+  font-size: 25px;
+  text-align: center;
+}
+
+.payment-request p {
+  font-size: 20px;
+  text-align: center;
+}

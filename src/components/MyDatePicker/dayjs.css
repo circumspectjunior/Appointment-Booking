@@ -1,0 +1,35 @@
+.localization-dayjs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #a9a4a4;
+}
+
+.localization-dayjs h2 {
+  font-size: 30px;
+}
+
+/* change the color of the MUI inputText color */
+.localization-dayjs .MuiInputBase-input {
+  color: #a9a4a4;
+}
+
+/*change the color of the MUI input border color*/
+.localization-dayjs .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
+  border-color: #a9a4a4; /* Change this to your desired color */
+}
+
+.localization-dayjs
+  .MuiOutlinedInput-root.Mui-focused
+  .MuiOutlinedInput-notchedOutline {
+  border-color: #00ff00; /* Change this to your desired color when focused */
+}
+
+.localization-dayjs .MuiFormLabel-root {
+  color: #a9a4a4; /* Change this to your desired color */
+}
+.localization-dayjs .MuiToggleButton-root {
+  color: #a9a4a4; /* Change this to your desired color */
+  border-color: #a9a4a4;
+}
